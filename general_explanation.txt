@@ -1,5 +1,5 @@
 Hey, 
-I was assigned the responsibility of undertaking a task involving the development of diverse machine learning models using the smoking and drinking dataset obtained from the National Health Insurance Service (NHIS) in Korea. Upon the initial examination of the dataset, I discerned the primary objective of predicting an individual's proclivity towards alcohol consumption. Subsequent to this preliminary data analysis, I referred to the available resources and subsequently embarked on the creation of four distinct machine learning models:-
+I was assigned the responsibility of undertaking a task involving the development of diverse machine learning models using the smoking and drinking dataset obtained from the National Health Insurance Service (NHIS) in Korea. Upon the initial examination of the dataset, I discerned the primary objective of predicting an individual's proclivity towards alcohol consumption. Subsequent to this preliminary data analysis, I referred to the available resources and subsequently embarked on the creation of six distinct machine learning models:-
 
 1. LINEAR REGRESSION- Linear regression is a fundamental and widely used supervised machine learning technique used for modeling the relationship between a dependent variable (also known as the target or response variable) and one or more independent variables (predictors or features) ,  linear regression is a straightforward yet powerful technique for modeling and understanding the linear relationships between variables, making it a valuable tool in machine learning and statistical analysis.
 
@@ -11,6 +11,8 @@ I was assigned the responsibility of undertaking a task involving the developmen
 
 5. RANDOM FOREST-: Random Forest is an ensemble learning method that combines multiple decision trees to make predictions. It creates a "forest" of decision trees, where each tree is trained on a different subset of the data and may use different features. The key idea behind Random Forest is to reduce overfitting and improve generalization by aggregating the predictions of multiple trees.
 
+6. K-NEAREST NEIGHBORS:- K-Nearest Neighbors (KNN) is a supervised machine learning algorithm used for classification and regression tasks. It is a simple yet effective algorithm that makes predictions based on the similarity of data points in a feature space.
+
 To compare the efficiencies of each machine learning model on this dataset, we will evaluate their performance based on accuracy, computational speed, and memory usage. 
 Based on the results, we can conclude which model appears to work best for the given dataset. For this dataset Random Forest and Support Vector Machine (SVM) tend to perform well in terms of accuracy followed by Naive Bayes and Decision Tree and Linear Regression had the least accuracy making it a less suitable choice for this dataset.
 When comparing in terms of Memory usage and computational speed we see that,
@@ -18,4 +20,5 @@ Naive Bayes is memory-efficient and computationally fast, making it suitable for
 Decision Trees have low memory usage and are fast to train.
 Random Forest uses moderate memory and is faster than SVM but may be slower than Naive Bayes for training.
 SVM can be memory-intensive and computationally expensive, especially for large datasets.
+KNN is memory-intensive because it stores the entire training dataset in memory for predictions and is also computationally expensive as  it needs to calculate distances to all training points for each prediction. 
 
